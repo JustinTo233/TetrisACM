@@ -299,6 +299,7 @@
 "Assets/Scripts/Ghost.cs"
 "Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/Piece.cs"
+"Assets/Scripts/SoundEffects.cs"
 "Assets/Scripts/Tetromino.cs"
 -langversion:8.0
 

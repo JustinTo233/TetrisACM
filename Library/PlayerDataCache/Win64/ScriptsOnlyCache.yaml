@@ -6,6 +6,7 @@ ScriptsOnlyBuild:
     - Ghost
     - MainMenu
     - Piece
+    - SoundEffects
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
@@ -29,8 +30,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
-    Unity.Timeline.Editor.dll:
-    - TimelineProjectSettings
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -69,6 +68,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
@@ -84,17 +87,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3242}
     - Class: 114
-      Script: {instanceID: 4424}
+      Script: {instanceID: 4426}
     - Class: 114
-      Script: {instanceID: 4732}
+      Script: {instanceID: 4734}
     - Class: 114
-      Script: {instanceID: 5554}
+      Script: {instanceID: 5556}
     - Class: 114
-      Script: {instanceID: 6204}
+      Script: {instanceID: 6206}
     - Class: 114
-      Script: {instanceID: 6392}
+      Script: {instanceID: 6394}
     - Class: 114
-      Script: {instanceID: 6764}
+      Script: {instanceID: 6766}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -126,6 +129,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
@@ -139,23 +146,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3242}
     - Class: 114
-      Script: {instanceID: 5362}
+      Script: {instanceID: 4380}
     - Class: 114
-      Script: {instanceID: 5424}
+      Script: {instanceID: 5364}
     - Class: 114
-      Script: {instanceID: 5554}
+      Script: {instanceID: 5426}
     - Class: 114
-      Script: {instanceID: 5858}
+      Script: {instanceID: 5556}
     - Class: 114
-      Script: {instanceID: 6204}
+      Script: {instanceID: 5860}
     - Class: 114
-      Script: {instanceID: 6392}
+      Script: {instanceID: 6206}
     - Class: 114
-      Script: {instanceID: 6764}
+      Script: {instanceID: 6394}
     - Class: 114
-      Script: {instanceID: 7580}
+      Script: {instanceID: 6766}
     - Class: 114
-      Script: {instanceID: 8532}
+      Script: {instanceID: 7582}
+    - Class: 114
+      Script: {instanceID: 8534}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -213,7 +222,7 @@ ScriptsOnlyBuild:
     className: SignalAsset
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: f02542b77e28712cb5d5510d04a55919
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MainMenu
@@ -591,6 +600,12 @@ ScriptsOnlyBuild:
     className: PhysicsRaycaster
   - hash:
       serializedVersion: 2
+      Hash: c2120edc54bcb8de64b283e346e8c44b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SoundEffects
+  - hash:
+      serializedVersion: 2
       Hash: 0fb27be807aa299702f28ad0bcad1f46
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -729,7 +744,7 @@ ScriptsOnlyBuild:
     className: CCDSolver2D
   - hash:
       serializedVersion: 2
-      Hash: e813c40504fa91d2a2c6050123a45c27
+      Hash: fd072718a79d12e9b277e8e68f93d666
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameOverScreen
@@ -963,7 +978,7 @@ ScriptsOnlyBuild:
     className: UnityOnScrollRectValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: a922324c4884f8fb321c3944252d4e55
+      Hash: ca41d35f0375e6f67daeb1cc0a0a2873
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Board
@@ -1139,4 +1154,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/Tetris.unity
-  playerPath: C:/Users/Jelly/OneDrive/Documents/ACM Projects/ACM Tetris/ACM Tetris.exe
+  playerPath: C:/Users/Jelly/Desktop/Projects/ACM Tetris.exe
